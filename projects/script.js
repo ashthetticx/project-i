@@ -12,7 +12,7 @@ const data = [
   needs: "People with super powers",
   status: "Live" },
 {
-  project: "Simple Calculator",
+  project: "Javascript minify",
   stack: ["JavaScript", "HTML5", "CSS"],
   description:
   "You may see bug's/errors in this project, The code used in this project is available in a GitHub repository and is free for you to use under the MIT license. If you want to have a look at a live version of this project, you can check out it's demo/preview. ",
