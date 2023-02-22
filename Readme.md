@@ -1,4 +1,4 @@
-<h2> Vscode Love</h2>
+<h2>Ashthetticx</h2>
 <h3 align="center">This project is not profit making, it's only created for educational purposes and is not affiliated with any company's, all the trademarks and registered trademarks are the property of their respective owners.</h3>
 
 <p align="left"> <a href="https://twitter.com/ashthetticx" target="blank"><img src="https://img.shields.io/twitter/follow/ashthetticx?logo=twitter&style=for-the-badge" alt="ashthetticx" /></a> </p>
