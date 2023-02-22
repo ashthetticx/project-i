@@ -4,13 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Code Spy</title>
+  <title>Code C Programming Short Notes</title>
       <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <!--boootstrap css-->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- custom css file link  -->
-    <link rel="stylesheet" href="/spy/ccss.css">
+    <link rel="stylesheet" href="/C Programming Short Notes/ccss.css">
 </head>
 <style type="text/css" media="all">
 
@@ -19,19 +19,19 @@
   <header>
       <div id="menu" class="fas fa-bars"></div>
       <nav class="pnavbar">
-        <a href="/spy/index.html">Home</a>
-        <a href="/spy/ctut1.html">C Introduction</a>
-        <a href="/spy/ctut3.html"> Datatypes In C</a>
-        <a href="/spy/ctut4.html">Frist C Program</a>
-        <a href="/spy/ctut5.html">Operators</a>
-        <a href="/spy/ctut6.html">Format Specifiers</a>
-        <a href="/spy/ctut7.html">Decision Making</a>
-        <a href="/spy/ctut10.html">Loops Control</a>
-        <a href="/spy/ctut11.html">Function & Recursion</a>
-        <a href="/spy/ctut12.html">Pointer</a>
-        <a href="/spy/ctut13.html">Arrays</a>
-        <a href="/spy/ctut14.html">Multidimensional Arrays</a>
-        <a href="/spy/ctut15.html">Strings In C</a>
+        <a href="/C Programming Short Notes/index.html">Home</a>
+        <a href="/C Programming Short Notes/ctut1.html">C Introduction</a>
+        <a href="/C Programming Short Notes/ctut3.html"> Datatypes In C</a>
+        <a href="/C Programming Short Notes/ctut4.html">Frist C Program</a>
+        <a href="/C Programming Short Notes/ctut5.html">Operators</a>
+        <a href="/C Programming Short Notes/ctut6.html">Format Specifiers</a>
+        <a href="/C Programming Short Notes/ctut7.html">Decision Making</a>
+        <a href="/C Programming Short Notes/ctut10.html">Loops Control</a>
+        <a href="/C Programming Short Notes/ctut11.html">Function & Recursion</a>
+        <a href="/C Programming Short Notes/ctut12.html">Pointer</a>
+        <a href="/C Programming Short Notes/ctut13.html">Arrays</a>
+        <a href="/C Programming Short Notes/ctut14.html">Multidimensional Arrays</a>
+        <a href="/C Programming Short Notes/ctut15.html">Strings In C</a>
       </nav>
       <div id="theme-toggler" class="fas fa-moon"></div>
     </header>
@@ -43,13 +43,13 @@
   <big><b>Variables:</b></big>
   <ol>
     
-    <p>A variable is a container (storage area) used to hold data. Each variable should be given a unique name (identifier).</p>
+    <p>A variable is a name given to the memory location (storage area) to hold data. Each variable should be given a unique name (identifier).</p>
     
     <p>For Example</p>
-    <p>int a = 2;  // a is assigned 2.</p>
-    <p>Here a is the variable name that holds the integer value 2. The value of a can be changed, hence the name variable.</p>
-    <p>▪️There are certain rules for naming a variable in C:</p>
-    <li>Can only have alphabets, numbers and underscore.</li>
+    <div class="syntax"  ><kbd>int a = 2;</kbd>  // a is assigned 2.</div>
+    <p>Here a is the variable name that holds the integer value 2. The value of a can be changed, hence the name variable.</p></ol>
+    <big>There are some certain rules for naming a variable in C:</big>
+   <ol> <li>Can only have alphabets, numbers and underscore.</li>
     <li>Cannot begin with a number, No special symbol Allowed Other than underscore ( _ )</li>
     <li>Cannot begin with an uppercase character.</li>
     <li>Cannot be a keyword defined in C language (like int is a keyword).</li>
@@ -64,12 +64,14 @@
   <hr>
   <big><b>Constants</b></big>
   <ol>
-    <p>An entity whose value doesn’t change is called a constant.</p>
-    <big>Types of constant</big>
+    <p>Mathematically constants is an entity whose value doesn’t change.</p>
+    <p>Similarly we have an constants in c programming that value doesn't change.</p></ol>
+    <big>Types of constant</big><ol>
     <p>Primarily there are 3 types of constant:</p>
-  <li>Integer Constant ( -33, 56, 23, 124 )</li>  
-  <li>Real Constant ( -234.45, 2.4, 3.33 )</li>
-  <li>Character Constant ( '4’,’$’,’c’, '@')</li>
+  <li><p><b>Integer Constant:</b> An Integer constant can only be (whole numbers) without any decimal point ex:-
+  ( -33, 56, 23, 124 )</p></li>  
+  <li><p><b>Real Constant:</b> A real constant is an floating point number, only have decimal values ex:- ( -234.45, 2.4, 3.33 )</p></li>
+  <li><p><b>Character Constant:</b> Character Constant only have single character enclosed within single inverted commas ex:- ( '4’,’$’,’c’, '@')</p></li>
   </ol>
   <div class="notebox">
     <b>Note: </b><ol><p>Character must be enclosed within single inverted commas</p></ol>
@@ -155,7 +157,7 @@
 
 
     <big><b>Comments</b></big>
-    <p class="para">Comments are like helping text in your C program and they are ignored by the compiler. there are two types of comments one single line comments and second is multiple line comments, single line comments are denoted by two forward slash( // ) and multi lines comments start with /* and terminates with the characters */ as shown below:</p><br>
+    <p class="para">Comments are like helping text in your C program and they are ignored by the compiler.</p> <p class="para">there are two types of comments, one is the <b>single line comments</b> and second is <b>multiple line comments</b>, single line comments are denoted by two forward slash <kbd>//</kbd> and multi lines comments start with <kbd>/*</kbd> and terminates with the characters  <kbd>*/</kbd> as shown below:</p><br>
     <ol>
       <li>Single line comment</li>
       <pre class="syntax"> syntax:
@@ -174,13 +176,13 @@ character literals.</li>
 
 <br><nav aria-label="Page navigation example">
   <ul class="pagination">
-    <li class="page-item "><a class="page-link" href="/spy/ctut1.html"><span aria-hidden="true">&laquo;</span>  Previous</a></li>
+    
    
-    <li class="page-item"><a class="page-link" href="/spy/ctut3.html">Next  <span aria-hidden="true">&raquo;</span></a></li>
+    <li class="page-item"><a class="page-link" href="/C Programming Short Notes/ctut3.html">Next  <span aria-hidden="true">&raquo;</span></a></li>
   </ul>
 </nav>
 
-<p>If you any have doubt,suggestion regarding this post or website then feel free to <a style="text-decoration: none" href="/spy/contact.html">share with us</a>
+<p>If you any have doubt,suggestion regarding this post or website then feel free to <a style="text-decoration: none" href="/C Programming Short Notes/contact.html">share with us</a>
 </p>
 
 
@@ -219,7 +221,7 @@ character literals.</li>
 <!--bootstrap-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <!-- custom js file link  -->
-<script src="/spy/cjs.js"></script>
+<script src="/C Programming Short Notes/cjs.js"></script>
 </body>
 
 </html>
